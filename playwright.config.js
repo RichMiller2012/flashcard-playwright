@@ -8,11 +8,12 @@ export default defineConfig({
   timeout: 0,
   use: {
     baseURL: 'http://localhost:8080', // or your deployed URL
-    headless: false,                  // show the browser
-    trace: 'on',  
+    headless: false, 
+    trace: 'on', 
     launchOptions: {
-        args: ["--start-maximized"]
-    }                     
+        args: ["--start-maximized", "--start-fullscreen"]
+    },
+    viewport: null,                     
   },
   projects: [
     {
