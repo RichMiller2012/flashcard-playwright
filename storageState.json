@@ -1,0 +1,43 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.394128518.1754745110",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1789305110.163191,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_EEHZ10KL0M",
+      "value": "GS2.1.s1754745110$o1$g0$t1754745110$j60$l0$h0",
+      "domain": "localhost",
+      "path": "/",
+      "expires": 1789305110.886322,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://localhost:8080",
+      "localStorage": [
+        {
+          "name": "authToken",
+          "value": "eyJhbGciOiJIUzM4NCJ9.eyJzdWIiOiJyaWNoIiwiaWF0IjoxNzU0NzQ1MTEwLCJleHAiOjE3NTQ3NTIzMTB9.M0h_H1-4EeC4wLhdq2LPoqY85knlqmKDN-f_stUYNHm6xWhMoquiWyqS1yV2LmtL"
+        },
+        {
+          "name": "user",
+          "value": "{\"id\":1,\"firstName\":\"richard\",\"lastName\":null,\"email\":\"rich.miller2012@gmail.com\",\"username\":\"rich\",\"password\":\"*******\",\"age\":41,\"gender\":null,\"lastActiveDate\":\"2025-08-09\",\"stripeCustomerId\":null,\"stripeSubscriptionId\":null,\"stripeSessionId\":null,\"isSubscribed\":false,\"allowedFlashcards\":100,\"voiceConfig\":{\"voiceConfigId\":1,\"languageCode\":\"fil-PH\",\"name\":\"fil-PH-Wavenet-B\",\"effectProfile\":\"large-home-entertainment-class-device\",\"pitch\":-9.6,\"rate\":1.23},\"region\":\"US\",\"active\":true}"
+        },
+        {
+          "name": "username",
+          "value": "rich"
+        }
+      ]
+    }
+  ]
+}
